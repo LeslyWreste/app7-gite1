@@ -1,15 +1,15 @@
 // JavaScript Document
 
-$(document).ready(function(e) {
+$(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		
 		$('#izquierda').on("swipeleft",function(){
 			navigator.notification. alert("Deslizo a la izquierda",function(){"Apicacion7","Aceptar"});
 });
 
-$('#derecha').on("seiperight",function(){
-	navigator.notificaton. confirm("¿Que quieres hacer?",function(op){
-		switch(op)
+$('#derecha').on("swiperight",function(){
+	navigator.notificaton. confirm("¿Que quieres hacer?",function(opt){
+		switch(opt)
 		{
 			case 1:
 			navigator.notification.beep(1);

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets"
+xlmns:gap = "http://phonegap.com/ns/1.0"
+id="com.phonegap.app7"
+version = "1.0.0">
+
+<name> App7 Deslizar hacia la izquierda y a la derecha </name>
+
+<description>
+Apicacion que realiza es swipe o deslizamiento en el dispositivo
+</description>
+
+<author href="https://build.phonrgap.com" email="less_wreste15@hotmail.com">
+</author>
+
+
+
+
+<!--PERSONALIZA LA APLICACION Y LA PLATAFORMA-->
+<preference name="orientation" value="default"/>
+<!--PREFERENCE NAME="ORIENTATION" VALUE="PORTRAIT"/>-->
+
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true"/>
+<preference name="android-installLocation" value="auto"/>
+<preference name="permissions" value="INTERNET"/>
+<!------------------------------------------------------------->
+<plugin name="cordova-plugin-device" spec="~1.1.4"/>
+<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
+<plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+<!-------------------------------------------------------------->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<!--COLOCAR EL ICONO DE LA APP-->
+<icon src="res/android/mdpi.png"/>
+
+</widget>
